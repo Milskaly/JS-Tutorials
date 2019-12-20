@@ -267,28 +267,3 @@ function yearsUntilRetirement(year, firstName) {
 yearsUntilRetirement(1990, "John");
 yearsUntilRetirement(1967, "Mark");
 yearsUntilRetirement(1934, "Jane");
-
-// function fizzbuzz (number)
-// {
-
-// 	//Milestone 03
-
-// 	function fizzbuzz (number)
-
-// {
-// if (isNaN(number)) {
-//   return "Please enter a number!";
-// }
-// else if (number % 5 === 0 && number % 3 === 0 ) {
-// 	console.log("Fizz" + " " + "Buzz");
-// } else if (number % 5 === 0) {
-// 	console.log("Buzz");
-// } else if (number % 3 === 0) {
-// 	console.log("Fizz");
-// } else {
-// 	console.log(number);
-// }
-// }
-
-// let number = 7 ;
-// fizzbuzz(number);
