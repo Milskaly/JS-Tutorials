@@ -1,2 +1,2 @@
-# JS-Tutorials
-Udemy
+# Javascript-Tutorials
+UDEMY
