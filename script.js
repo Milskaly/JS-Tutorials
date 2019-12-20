@@ -246,7 +246,7 @@
 // Functions are important for the DRY rule - DON'T REPEAT YOURSELF
 
 function calculateAge(birthYear) {
-	return 2018 - birthYear;
+  return 2018 - birthYear;
 }
 let ageJohn = calculateAge(1990);
 let ageMark = calculateAge(1967);
@@ -254,16 +254,18 @@ let ageJane = calculateAge(1934);
 console.log(ageJohn, ageMark, ageJane);
 
 function yearsUntilRetirement(year, firstName) {
-	let age = calculateAge(year);
-	let retirement = 65 - age;
+  let age = calculateAge(year);
+  let retirement = 65 - age;
 
-	if (retirement > 0) {
-		console.log(firstName + " " + "retires in" + " " + retirement + "years");
-	} else {
-		console.log(firstName + " " + "is already retired");
-	}
+  if (retirement > 0) {
+    console.log(firstName + " " + "retires in" + " " + retirement + "years");
+  } else {
+    console.log(firstName + " " + "is already retired");
+  }
 }
 
 yearsUntilRetirement(1990, "John");
 yearsUntilRetirement(1967, "Mark");
 yearsUntilRetirement(1934, "Jane");
+
+//Fizz Buzz
