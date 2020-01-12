@@ -1,3 +1,4 @@
+// UDEMY JAVASCRIPT TUTORIAL
 var firstName = "John";
 var age = 28;
 
