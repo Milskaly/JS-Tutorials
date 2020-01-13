@@ -749,3 +749,6 @@ if (John.average > Mark.average) {
 
 // *****************************************************************************************
 //JAVASCRIPT VERSIONS
+
+//ES5 is ready to be used today
+//ES6, ES7, ES8 does not necessarily work on all browsers and need to be converted back to ES5 
